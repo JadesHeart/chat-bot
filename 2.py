@@ -13,8 +13,9 @@ while True:
             line = line.strip()
             line = line.split(":")
             if line[0]==slovo:
-                print(line[1])
+                print("Хмм, я думаю: " + line[1])
                 a = -1
+                print("Го дальше!")
             elif slovo == "Отпустипрошу":
                 a = -1
                 break
